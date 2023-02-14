@@ -114,7 +114,8 @@ main strong {
    padding: 20px;
 }
 .source {
-   width: 100%;
+   max-width: 380px;
+   min-width: 200px;
 }
 #extra {
    background-color: #C5EBD6;
