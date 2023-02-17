@@ -50,7 +50,6 @@ header {
    text-align: left;
    margin: auto;
    background-color: #1A5C38;
-
 }
 nav > a {
    color: white;
@@ -61,8 +60,6 @@ nav > a {
 }
 nav > a:hover {
    text-decoration: underline;
-   font-size: 19px;
-   transition-duration: 0.7s;
 }
 main {
    background-color: white;
@@ -95,10 +92,8 @@ main strong {
    background-image: linear-gradient(to right, #bee6cfcc , #bddfcbbb, white);
 }
 .IrinaBlok {
-   display: block;
    margin: 10px;
-   margin-left: 10px;
-   width: 100%;
+   max-width: 100%;
 }
 #droid {
    display: block;
@@ -110,12 +105,8 @@ main strong {
    justify-content: center;
    background-color: #1A5C38;
    border-right: 10px solid #1A5C38;
-   margin: 10px -10px;
+   margin: 10px -20px;
    padding: 20px;
-}
-.source {
-   max-width: 380px;
-   min-width: 200px;
 }
 #extra {
    background-color: #C5EBD6;
@@ -146,7 +137,7 @@ footer {
    padding: 1px;
    margin: 0px;
 }
-footer > p {
+footer  p {
    padding: 1px;
    margin: 5px;
    font-size: 1em;
